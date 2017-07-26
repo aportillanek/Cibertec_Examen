@@ -4,10 +4,16 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <AssemblyName>Examen.Repositorios</AssemblyName>
     <RootNamespace>Examen.Repositorios</RootNamespace>
+	<DebugType>full</DebugType>
+   <DebugSymbols>True</DebugSymbols>
   </PropertyGroup>
-
+ 
   <ItemGroup>
     <PackageReference Include="dapper.contrib" Version="1.50.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenModelo\Examen.Modelos.csproj" />
   </ItemGroup>
 
 </Project>

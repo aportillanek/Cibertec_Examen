@@ -1,5 +1,6 @@
 ﻿using Examen.Modelos;
 using Examen.Repositorios;
+using Examen.Repositorios.Credit;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,11 +12,11 @@ namespace Examen.UnidadDeTrabajo
 
         public UnidadTrabajo(string cadenaConexion)
         {
-            Corporations = new Repositorio<Corporation>(cadenaConexion);
-            Members = new Repositorio<Member>(cadenaConexion);
+            Corporations = new CorporationRepositorio(cadenaConexion);
+            Members = new MemberRepositorio(cadenaConexion);
         }
                 
-        public IRepositorio<Corporation> Corporations { get; private set; }
-        public IRepositorio<Member> Members { get; private set; }
+        public ICorporationRepositorio Corporations { get; private set; }
+        public IMemberRepositorio Members { get; private set; }
     }
 }

@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\app\app.config.js" />
+    <Content Include="wwwroot\app\app.controller.js" />
+    <Content Include="wwwroot\app\app.js" />
+    <Content Include="wwwroot\app\app.routes.js" />
+    <Content Include="wwwroot\app\components\modal\modal-directive.html" />
+    <Content Include="wwwroot\app\components\modal\modal.directive.js" />
+    <Content Include="wwwroot\app\private\corporation\corporation.controller.js" />
+    <Content Include="wwwroot\app\private\corporation\directives\corporation-card\corporation-card.html" />
+    <Content Include="wwwroot\app\private\corporation\directives\corporation-card\corporation-card.js" />
+    <Content Include="wwwroot\app\private\corporation\index.html" />
+    <Content Include="wwwroot\libraries\angular\angular-animate.js" />
+    <Content Include="wwwroot\libraries\angular\angular-animate.min.js" />
+    <Content Include="wwwroot\libraries\angular\angular-animate.min.js.map" />
+    <Content Include="wwwroot\libraries\angular\angular-local-storage.js" />
+    <Content Include="wwwroot\libraries\angular\angular-ui-router.js" />
+    <Content Include="wwwroot\libraries\angular\angular.js" />
+    <Content Include="wwwroot\libraries\angular\angular.min.js" />
+    <Content Include="wwwroot\libraries\angular\angular.min.js.map" />
+    <Content Include="wwwroot\libraries\angular\ui-bootstrap.js" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.css" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.css.map" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.min.css" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.css" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.css.map" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.min.css" />
+    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\libraries\boostrap\js\bootstrap.js" />
+    <Content Include="wwwroot\libraries\boostrap\js\bootstrap.min.js" />
+    <Content Include="wwwroot\libraries\boostrap\js\npm.js" />
+    <Content Include="wwwroot\libraries\jquery\jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\app\private\corporation\directives\corporation-form\" />
+    <Folder Include="wwwroot\app\public\" />
+  </ItemGroup>
+
+</Project>

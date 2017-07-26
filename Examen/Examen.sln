@@ -1,19 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.Modelos", "ExamenModelo\Examen.Modelos.csproj", "{8615BFF0-07C2-49C4-9E0B-E123C4F65C59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examen.Modelos", "ExamenModelo\Examen.Modelos.csproj", "{8615BFF0-07C2-49C4-9E0B-E123C4F65C59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.Repositorios", "Examen.Repositorio\Examen.Repositorios.csproj", "{5FB62943-23A2-434E-BA05-65DBB0E25B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examen.Repositorios", "Examen.Repositorio\Examen.Repositorios.csproj", "{5FB62943-23A2-434E-BA05-65DBB0E25B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.UnidadDeTrabajo", "Examen.UnidadDeTrabajo\Examen.UnidadDeTrabajo.csproj", "{8F4DE3CF-5786-4B3D-BEA3-3FA3DF862723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examen.UnidadDeTrabajo", "Examen.UnidadDeTrabajo\Examen.UnidadDeTrabajo.csproj", "{8F4DE3CF-5786-4B3D-BEA3-3FA3DF862723}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datos", "Datos", "{5D405BDE-4FC8-43EF-BBD3-7872F5876962}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7B6C7FC7-64A2-45C3-AC4C-E7A31F4323DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.PruebaDatos", "Examen.PruebaDatos\Examen.PruebaDatos.csproj", "{005855CA-A996-408B-84F5-79BD831606C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examen.PruebaDatos", "Examen.PruebaDatos\Examen.PruebaDatos.csproj", "{005855CA-A996-408B-84F5-79BD831606C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{3365DAC7-7AAE-42A6-A1CB-CB8BFC68518C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.WebApi", "Examen.WebApi\Examen.WebApi.csproj", "{46F92161-9440-41A0-A001-70790F8C0778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.Angular", "Examen.Angular\Examen.Angular.csproj", "{F516EB51-F9DA-461A-BFDB-6B8709D5D1AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.Web.Prueba", "Examen.Web.Prueba\Examen.Web.Prueba.csproj", "{85E369FF-C752-4CA5-8EDE-469E9D1CC6C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +45,18 @@ Global
 		{005855CA-A996-408B-84F5-79BD831606C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{005855CA-A996-408B-84F5-79BD831606C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{005855CA-A996-408B-84F5-79BD831606C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F92161-9440-41A0-A001-70790F8C0778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F92161-9440-41A0-A001-70790F8C0778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F92161-9440-41A0-A001-70790F8C0778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F92161-9440-41A0-A001-70790F8C0778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F516EB51-F9DA-461A-BFDB-6B8709D5D1AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F516EB51-F9DA-461A-BFDB-6B8709D5D1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F516EB51-F9DA-461A-BFDB-6B8709D5D1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F516EB51-F9DA-461A-BFDB-6B8709D5D1AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E369FF-C752-4CA5-8EDE-469E9D1CC6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E369FF-C752-4CA5-8EDE-469E9D1CC6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E369FF-C752-4CA5-8EDE-469E9D1CC6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E369FF-C752-4CA5-8EDE-469E9D1CC6C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +66,8 @@ Global
 		{5FB62943-23A2-434E-BA05-65DBB0E25B5A} = {5D405BDE-4FC8-43EF-BBD3-7872F5876962}
 		{8F4DE3CF-5786-4B3D-BEA3-3FA3DF862723} = {5D405BDE-4FC8-43EF-BBD3-7872F5876962}
 		{005855CA-A996-408B-84F5-79BD831606C3} = {7B6C7FC7-64A2-45C3-AC4C-E7A31F4323DC}
+		{46F92161-9440-41A0-A001-70790F8C0778} = {3365DAC7-7AAE-42A6-A1CB-CB8BFC68518C}
+		{F516EB51-F9DA-461A-BFDB-6B8709D5D1AC} = {3365DAC7-7AAE-42A6-A1CB-CB8BFC68518C}
+		{85E369FF-C752-4CA5-8EDE-469E9D1CC6C0} = {7B6C7FC7-64A2-45C3-AC4C-E7A31F4323DC}
 	EndGlobalSection
 EndGlobal

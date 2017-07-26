@@ -1,11 +1,12 @@
 ﻿using Examen.Modelos;
 using Examen.Repositorios;
+using Examen.Repositorios.Credit;
 
 namespace Examen.UnidadDeTrabajo
 {
     public interface IUnidadTrabajo
     {
-        IRepositorio<Corporation> Corporations { get; }
-        IRepositorio<Member> Members { get; }
+        ICorporationRepositorio Corporations { get; }
+        IMemberRepositorio Members { get; }
     }
 }
