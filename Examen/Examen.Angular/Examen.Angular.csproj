@@ -15,10 +15,18 @@
     <Content Include="wwwroot\app\app.routes.js" />
     <Content Include="wwwroot\app\components\modal\modal-directive.html" />
     <Content Include="wwwroot\app\components\modal\modal.directive.js" />
+    <Content Include="wwwroot\app\home.html" />
     <Content Include="wwwroot\app\private\corporation\corporation.controller.js" />
     <Content Include="wwwroot\app\private\corporation\directives\corporation-card\corporation-card.html" />
     <Content Include="wwwroot\app\private\corporation\directives\corporation-card\corporation-card.js" />
+    <Content Include="wwwroot\app\private\corporation\directives\corporation-form\corporation-form.html" />
+    <Content Include="wwwroot\app\private\corporation\directives\corporation-form\corporation-form.js" />
     <Content Include="wwwroot\app\private\corporation\index.html" />
+    <Content Include="wwwroot\app\public\login\index.html" />
+    <Content Include="wwwroot\app\public\login\login.controller.js" />
+    <Content Include="wwwroot\app\shared\authentication.service.js" />
+    <Content Include="wwwroot\app\shared\data.service.js" />
+    <Content Include="wwwroot\app\shared\settings.service.js" />
     <Content Include="wwwroot\libraries\angular\angular-animate.js" />
     <Content Include="wwwroot\libraries\angular\angular-animate.min.js" />
     <Content Include="wwwroot\libraries\angular\angular-animate.min.js.map" />
@@ -28,22 +36,22 @@
     <Content Include="wwwroot\libraries\angular\angular.min.js" />
     <Content Include="wwwroot\libraries\angular\angular.min.js.map" />
     <Content Include="wwwroot\libraries\angular\ui-bootstrap.js" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.css" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.css.map" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.min.css" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap-theme.min.css.map" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.css" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.css.map" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.min.css" />
-    <Content Include="wwwroot\libraries\boostrap\css\bootstrap.min.css.map" />
-    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="wwwroot\libraries\boostrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="wwwroot\libraries\boostrap\js\bootstrap.js" />
-    <Content Include="wwwroot\libraries\boostrap\js\bootstrap.min.js" />
-    <Content Include="wwwroot\libraries\boostrap\js\npm.js" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap.css" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap.css.map" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap.min.css" />
+    <Content Include="wwwroot\libraries\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\libraries\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\libraries\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\libraries\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\libraries\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\libraries\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\libraries\bootstrap\js\bootstrap.js" />
+    <Content Include="wwwroot\libraries\bootstrap\js\bootstrap.min.js" />
+    <Content Include="wwwroot\libraries\bootstrap\js\npm.js" />
     <Content Include="wwwroot\libraries\jquery\jquery.js" />
   </ItemGroup>
   <ItemGroup>
@@ -56,10 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\app\private\corporation\directives\corporation-form\" />
-    <Folder Include="wwwroot\app\public\" />
   </ItemGroup>
 
 </Project>

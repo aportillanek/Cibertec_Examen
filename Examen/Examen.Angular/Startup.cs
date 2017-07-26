@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Examen.Angular.Code;
 
 namespace Examen.Angular
 {
@@ -28,6 +29,7 @@ namespace Examen.Angular
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.Configure<ConfigurationFile>(Configuration.GetSection("ConfigurationFile"));
             services.AddMvc();
         }
 

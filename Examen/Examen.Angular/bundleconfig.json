@@ -9,16 +9,63 @@
     ]
   },
   {
-    "outputFileName": "wwwroot/js/site.min.js",
+    "outputFileName": "wwwroot/js/angular.js",
     "inputFiles": [
-      "wwwroot/js/site.js"
+      "wwwroot/libraries/angular/angular.js",
+      "wwwroot/libraries/angular/angular-ui-router.js",
+      "wwwroot/libraries/angular/angular-local-storage.js",
+      "wwwroot/libraries/angular/ui-bootstrap.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bootstrap.js",
+    "inputFiles": [
+      "wwwroot/libraries/jquery/jquery.js",
+      "wwwroot/libraries/bootstrap/js/bootstrap.min.js"
+
+
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+
+  },
+  {
+    "outputFileName": "wwwroot/js/app-site.js",
+    "inputFiles": [
+      "wwwroot/app/app.js",
+      "wwwroot/app/app.routes.js",
+      "wwwroot/app/app.config.js",
+      "wwwroot/app/app.controller.js"
+
+
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+
+  },
+
+  {
+
+    "inputFiles": [
+      "wwwroot/app/shared/**/*.js",
+      "wwwroot/app/components/**/*.js",
+      "wwwroot/app/public/**/*.js",
+      "wwwroot/app/private/**/*.js"
+
+
     ],
     // Optionally specify minification options
     "minify": {
       "enabled": true,
       "renameLocals": true
     },
-    // Optionally generate .map file
-    "sourceMap": false
+    "outputFileName": "wwwroot/js/app-cibertec.js"
+
   }
 ]

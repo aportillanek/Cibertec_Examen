@@ -1,0 +1,52 @@
+﻿body {
+    background-color: $background-color;
+    margin: 2rem 2rem;
+    padding-top: 5rem;
+
+    @include break-point(md) {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    header {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        border-width: 0 0 1px;
+        background-color: $site-color-black;
+        height: 4rem;
+    }
+
+    footer {
+        background: $site-color-black;
+        color: $site-color-white;
+        height: 3rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    section {
+        background-color: $background-color;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
+    }
+
+    .row {
+        width: auto;
+    }
+}
+
+.headerlogo {
+    img {
+        float: left;
+        margin-left: 2rem;
+        margin-top: 10px;
+        width: 40px;
+        height: auto;
+    }
+}

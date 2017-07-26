@@ -3,7 +3,7 @@
     angular.module('app')
         .controller('corporationController', corporationController);
 
-    customerController.$inject = ['dataService', 'configService', '$state'];
+    corporationController.$inject = ['dataService', 'configService', '$state'];
 
     function corporationController(dataService, configService, $state) {
         var apiUrl = configService.getApiUrl();

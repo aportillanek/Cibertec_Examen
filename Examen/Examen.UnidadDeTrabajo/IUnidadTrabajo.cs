@@ -8,5 +8,6 @@ namespace Examen.UnidadDeTrabajo
     {
         ICorporationRepositorio Corporations { get; }
         IMemberRepositorio Members { get; }
+        IUserRepositorio Users { get; }
     }
 }

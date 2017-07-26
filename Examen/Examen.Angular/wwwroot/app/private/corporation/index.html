@@ -5,7 +5,7 @@
     </div>
     <div>
         <button ng-click="vm.create();" data-toggle="modal" data-target="#modal-container" class="btn btn-success btn-sm">
-            <span class="glyphicon glyphicon-erase"></span> New Customer
+            <span class="glyphicon glyphicon-erase"></span> New corporation
         </button>
     </div>
     <ul uib-pagination total-items="vm.totalRecords"
@@ -15,11 +15,17 @@
         ng-change="vm.pageChanged()"></ul>
     <div class="row">
         <corporation-card ng-repeat="corporation in vm.corporationList "
-                          id="{{::corporation.corp_No}}"
-                          first-name="{{::corporation.Corp_Name}}"
-                          city="{{::corporation.street}}"
-                          country="{{::corporation.city}}"
-                          Phone="{{::corporation.state_Prov}}">
+                          corp-no="{{::corporation.corp_No}}"
+                          corp-name="{{::corporation.corp_Name}}"
+                          street="{{::corporation.street}}"
+                          city="{{::corporation.city}}"
+                          state-prov="{{::corporation.state_Prov}}"
+                          country="{{::corporation.country}}"
+                           mail-code="{{::corporation.mail_Code}}"
+                           phone-no="{{::corporation.phone_No}}"
+                           expr-dt="{{::corporation.expr_Dt}}"
+                          corp-code="{{::corporation.corp_Code}}"
+                          >
             <button ng-click="vm.getCorporation(corporation.corp_No); vm.edit();" data-toggle="modal" data-target="#modal-container" class="btn btn-success btn-sm">
                 <span class="glyphicon glyphicon-erase"></span> Edit
             </button>

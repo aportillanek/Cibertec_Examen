@@ -14,9 +14,11 @@ namespace Examen.UnidadDeTrabajo
         {
             Corporations = new CorporationRepositorio(cadenaConexion);
             Members = new MemberRepositorio(cadenaConexion);
+            Users = new UserRepositorio(cadenaConexion);
         }
                 
         public ICorporationRepositorio Corporations { get; private set; }
         public IMemberRepositorio Members { get; private set; }
+        public IUserRepositorio Users { get; private set; }
     }
 }
