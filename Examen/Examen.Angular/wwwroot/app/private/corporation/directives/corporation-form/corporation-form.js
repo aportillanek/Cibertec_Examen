@@ -2,7 +2,7 @@
 {
     'use-strict';
     angular.module('app')
-        .directive('corporationForm', corporationForm)
+        .directive('corporationForm', corporationForm);
     function corporationForm()
     {
         return {
@@ -12,7 +12,7 @@
                 corporation:'='
 
             },
-            templareUrl: 'app/private/corporation/directives/corporation-form/corporation-form.html'
+            templateUrl: 'app/private/corporation/directives/corporation-form/corporation-form.html'
 
 
         };

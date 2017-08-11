@@ -364,16 +364,16 @@
             transclude: true,
             scope:
             {
-                corp_No: '@',
-                corp_Name: '@',
+                corpNo: '@',
+                corpName: '@',
                 street: '@',
                 city: '@',
-                state_Prov: '@',
+                stateProv: '@',
                 country: '@',
-                mail_Code: '@',
-                phone_No: '@',
-                expr_Dt: '@',
-                corp_Code: '@'
+                mailCode: '@',
+                phoneNo: '@',
+                exprDt: '@',
+                corpCode: '@'
             },
 
             templateUrl: 'app/private/corporation/directives/corporation-card/corporation-card.html',
@@ -397,7 +397,7 @@
 {
     'use-strict';
     angular.module('app')
-        .directive('corporationForm', corporationForm)
+        .directive('corporationForm', corporationForm);
     function corporationForm()
     {
         return {
@@ -407,7 +407,7 @@
                 corporation:'='
 
             },
-            templareUrl: 'app/private/corporation/directives/corporation-form/corporation-form.html'
+            templateUrl: 'app/private/corporation/directives/corporation-form/corporation-form.html'
 
 
         };

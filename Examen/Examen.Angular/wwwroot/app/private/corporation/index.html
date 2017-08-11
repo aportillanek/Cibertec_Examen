@@ -15,16 +15,16 @@
         ng-change="vm.pageChanged()"></ul>
     <div class="row">
         <corporation-card ng-repeat="corporation in vm.corporationList "
-                          corp_-no="{{::corporation.corp_No}}"
-                          corp_-name="{{::corporation.corp_Name}}"
+                          corp-no="{{::corporation.corpNo}}"
+                          corp-name="{{::corporation.corpName}}"
                           street="{{::corporation.street}}"
                           city="{{::corporation.city}}"
-                          state_-prov="{{::corporation.state_Prov}}"
+                          state-prov="{{::corporation.stateProv}}"
                           country="{{::corporation.country}}"
-                           mail_-code="{{::corporation.mail_Code}}"
-                           phone_-no="{{::corporation.phone_No}}"
-                           expr_-dt="{{::corporation.expr_Dt}}"
-                          corp_-code="{{::corporation.corp_Code}}"
+                           mail-code="{{::corporation.mailCode}}"
+                          phone-no="{{::corporation.phoneNo}}"
+                          expr-dt="{{::corporation.exprDt}}"
+                          corp-code="{{::corporation.corpCode}}"
                           >
             <button ng-click="vm.getCorporation(corporation.corp_No); vm.edit();" data-toggle="modal" data-target="#modal-container" class="btn btn-success btn-sm">
                 <span class="glyphicon glyphicon-erase"></span> Edit
