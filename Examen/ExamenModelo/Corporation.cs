@@ -6,15 +6,15 @@ namespace Examen.Modelos
     public class Corporation
     {
         [ExplicitKey]
-        public int Corp_No { get; set; }
-        public string Corp_Name { get; set; }
-        public string Street { get; set; }
+        public int corp_no { get; set; }
+        public string corp_name { get; set; }
+        public string street { get; set; }
         public string City { get; set; }
-        public string State_Prov { get; set; }
-        public string Country { get; set; }
-        public string Mail_Code { get; set; }
-        public string Phone_No { get; set; }
-        public DateTime Expr_Dt { get; set; }
-        public string Corp_Code { get; set; }        
+        public string state_prov { get; set; }
+        public string country { get; set; }
+        public string mail_code { get; set; }
+        public string phone_no { get; set; }
+        public DateTime expr_dt { get; set; }
+        public string corp_code { get; set; }        
     }
 }

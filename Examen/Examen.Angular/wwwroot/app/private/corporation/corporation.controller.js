@@ -133,7 +133,7 @@
         function create() {
             vm.customer = {};
             vm.modalTitle = 'New Corporation';
-            vm.modalButtonTitle = '';
+            vm.modalButtonTitle = 'Create';
             vm.readOnly = false;
             vm.modalFunction = createCorporation;
             vm.isDelete = false;

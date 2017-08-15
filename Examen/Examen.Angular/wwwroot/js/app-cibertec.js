@@ -308,7 +308,7 @@
         function create() {
             vm.customer = {};
             vm.modalTitle = 'New Corporation';
-            vm.modalButtonTitle = '';
+            vm.modalButtonTitle = 'Create';
             vm.readOnly = false;
             vm.modalFunction = createCorporation;
             vm.isDelete = false;
@@ -364,16 +364,16 @@
             transclude: true,
             scope:
             {
-                corpNo: '@',
-                corpName: '@',
+                corp_no: '@',
+                corp_name: '@',
                 street: '@',
                 city: '@',
-                stateProv: '@',
+                state_prov: '@',
                 country: '@',
-                mailCode: '@',
-                phoneNo: '@',
-                exprDt: '@',
-                corpCode: '@'
+                mail_code: '@',
+                phone_no: '@',
+                expr_dt: '@',
+                corp_code: '@'
             },
 
             templateUrl: 'app/private/corporation/directives/corporation-card/corporation-card.html',
@@ -404,7 +404,7 @@
 
             restrict: 'E',
             scope: {
-                corporation:'='
+                corporation: '='
 
             },
             templateUrl: 'app/private/corporation/directives/corporation-form/corporation-form.html'
@@ -418,9 +418,4 @@
 
 
 
-}
-
-
-
-
-    )();
+})();

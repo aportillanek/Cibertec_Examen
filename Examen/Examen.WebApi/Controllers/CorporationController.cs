@@ -73,7 +73,7 @@ namespace Examen.WebApi.Controllers
         public IActionResult Delete(int id)
         {
             if (id <= 0) return BadRequest();
-            var result = _unidad.Corporations.Eliminar(new Corporation { Corp_No = id });
+            var result = _unidad.Corporations.Eliminar(new Corporation { corp_no = id });
             return Ok(new { delete = true });
         }
     }

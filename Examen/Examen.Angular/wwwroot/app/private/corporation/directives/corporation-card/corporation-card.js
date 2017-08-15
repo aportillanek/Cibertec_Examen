@@ -10,16 +10,16 @@
             transclude: true,
             scope:
             {
-                corpNo: '@',
-                corpName: '@',
+                corp_no: '@',
+                corp_name: '@',
                 street: '@',
                 city: '@',
-                stateProv: '@',
+                state_prov: '@',
                 country: '@',
-                mailCode: '@',
-                phoneNo: '@',
-                exprDt: '@',
-                corpCode: '@'
+                mail_code: '@',
+                phone_no: '@',
+                expr_dt: '@',
+                corp_code: '@'
             },
 
             templateUrl: 'app/private/corporation/directives/corporation-card/corporation-card.html',

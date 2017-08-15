@@ -9,7 +9,7 @@
 
             restrict: 'E',
             scope: {
-                corporation:'='
+                corporation: '='
 
             },
             templateUrl: 'app/private/corporation/directives/corporation-form/corporation-form.html'
@@ -23,9 +23,4 @@
 
 
 
-}
-
-
-
-
-    )();
+})();
